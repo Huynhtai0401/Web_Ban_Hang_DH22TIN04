@@ -1,16 +1,19 @@
-/* định dạng đồ thể thao */
+/* định dạng Sản Phẩm */
 .product {
   display: flex;
   justify-content: space-around;
-  margin: 50px auto;
+  margin: 40px auto;
+}
+.product1{
+  border-style: solid;
+
 }
 .product-items {
-  background-color: aliceblue;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px cornflowerblue rgba(0, 0, 0, 0.1);
   text-align: left;
   width: 150px;
+  border-style: solid;
 }
 img {
   width: 100px;
@@ -20,4 +23,5 @@ img {
 }
 h1 {
   text-align: center;
+  color: red;
 }
